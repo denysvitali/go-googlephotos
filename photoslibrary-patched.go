@@ -15,7 +15,7 @@
 //   import "github.com/gphotosuploader/googlemirror/api/photoslibrary/v1"
 //   ...
 //   photoslibraryService, err := photoslibrary.New(oauthHttpClient)
-package photoslibrary // import "github.com/gphotosuploader/googlemirror/api/photoslibrary/v1"
+package go_googlephotos // import "github.com/gphotosuploader/googlemirror/api/photoslibrary/v1"
 
 import (
 	"bytes"
@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"strings"
 
-	gensupport "github.com/gphotosuploader/googlemirror/api/photoslibrary/v1/internal/gensupport"
+	gensupport "github.com/denysvitali/go-googlephotos/internal/gensupport"
 	googleapi "google.golang.org/api/googleapi"
 )
 
