@@ -1069,6 +1069,9 @@ type MediaItem struct {
 	// MimeType: MIME type of the media item.
 	MimeType string `json:"mimeType,omitempty"`
 
+	// FileName: The name of this file
+	FileName string `json:"fileName,omitempty"`
+
 	// ProductUrl: Google Photos URL for the media item. This link will only
 	// be available to
 	// the user if they're signed in.
